@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189C347E1A581DB100E9C6F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C347D1A581DB100E9C6F0 /* AppDelegate.swift */; };
+		189C34801A581DB100E9C6F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C347F1A581DB100E9C6F0 /* ViewController.swift */; };
+		189C34831A581DB100E9C6F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C34811A581DB100E9C6F0 /* Main.storyboard */; };
+		189C34851A581DB100E9C6F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C34841A581DB100E9C6F0 /* Images.xcassets */; };
+		189C34881A581DB100E9C6F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189C34861A581DB100E9C6F0 /* LaunchScreen.xib */; };
+		189C34941A581DB100E9C6F0 /* swift_udp_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C34931A581DB100E9C6F0 /* swift_udp_demoTests.swift */; };
+		189C37891A58316800E9C6F0 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 189C37651A58316800E9C6F0 /* Documentation.html */; };
+		189C378A1A58316800E9C6F0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C37681A58316800E9C6F0 /* GCDAsyncSocket.m */; };
+		189C378B1A58316800E9C6F0 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C376A1A58316800E9C6F0 /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189C348E1A581DB100E9C6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C34701A581DB100E9C6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C34771A581DB100E9C6F0;
+			remoteInfo = "swift-udp-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184307521A58365400870F84 /* GCDSocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GCDSocket-Bridging-Header.h"; sourceTree = "<group>"; };
+		189C34781A581DB100E9C6F0 /* swift-udp-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-udp-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C347C1A581DB100E9C6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189C347D1A581DB100E9C6F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189C347F1A581DB100E9C6F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189C34821A581DB100E9C6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189C34841A581DB100E9C6F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		189C34871A581DB100E9C6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		189C348D1A581DB100E9C6F0 /* swift-udp-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-udp-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C34921A581DB100E9C6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189C34931A581DB100E9C6F0 /* swift_udp_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_udp_demoTests.swift; sourceTree = "<group>"; };
+		189C37651A58316800E9C6F0 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		189C37671A58316800E9C6F0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		189C37681A58316800E9C6F0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		189C37691A58316800E9C6F0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		189C376A1A58316800E9C6F0 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C34751A581DB100E9C6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C348A1A581DB100E9C6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C346F1A581DB100E9C6F0 = {
+			isa = PBXGroup;
+			children = (
+				189C347A1A581DB100E9C6F0 /* swift-udp-demo */,
+				189C34901A581DB100E9C6F0 /* swift-udp-demoTests */,
+				189C34791A581DB100E9C6F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189C34791A581DB100E9C6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C34781A581DB100E9C6F0 /* swift-udp-demo.app */,
+				189C348D1A581DB100E9C6F0 /* swift-udp-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189C347A1A581DB100E9C6F0 /* swift-udp-demo */ = {
+			isa = PBXGroup;
+			children = (
+				189C37641A58316800E9C6F0 /* GCD */,
+				189C347D1A581DB100E9C6F0 /* AppDelegate.swift */,
+				189C347F1A581DB100E9C6F0 /* ViewController.swift */,
+				189C34811A581DB100E9C6F0 /* Main.storyboard */,
+				189C34841A581DB100E9C6F0 /* Images.xcassets */,
+				189C34861A581DB100E9C6F0 /* LaunchScreen.xib */,
+				189C347B1A581DB100E9C6F0 /* Supporting Files */,
+			);
+			path = "swift-udp-demo";
+			sourceTree = "<group>";
+		};
+		189C347B1A581DB100E9C6F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189C347C1A581DB100E9C6F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189C34901A581DB100E9C6F0 /* swift-udp-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				189C34931A581DB100E9C6F0 /* swift_udp_demoTests.swift */,
+				189C34911A581DB100E9C6F0 /* Supporting Files */,
+			);
+			path = "swift-udp-demoTests";
+			sourceTree = "<group>";
+		};
+		189C34911A581DB100E9C6F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189C34921A581DB100E9C6F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189C37641A58316800E9C6F0 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				184307521A58365400870F84 /* GCDSocket-Bridging-Header.h */,
+				189C37651A58316800E9C6F0 /* Documentation.html */,
+				189C37671A58316800E9C6F0 /* GCDAsyncSocket.h */,
+				189C37681A58316800E9C6F0 /* GCDAsyncSocket.m */,
+				189C37691A58316800E9C6F0 /* GCDAsyncUdpSocket.h */,
+				189C376A1A58316800E9C6F0 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C34771A581DB100E9C6F0 /* swift-udp-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C34971A581DB100E9C6F0 /* Build configuration list for PBXNativeTarget "swift-udp-demo" */;
+			buildPhases = (
+				189C34741A581DB100E9C6F0 /* Sources */,
+				189C34751A581DB100E9C6F0 /* Frameworks */,
+				189C34761A581DB100E9C6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-udp-demo";
+			productName = "swift-udp-demo";
+			productReference = 189C34781A581DB100E9C6F0 /* swift-udp-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189C348C1A581DB100E9C6F0 /* swift-udp-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C349A1A581DB100E9C6F0 /* Build configuration list for PBXNativeTarget "swift-udp-demoTests" */;
+			buildPhases = (
+				189C34891A581DB100E9C6F0 /* Sources */,
+				189C348A1A581DB100E9C6F0 /* Frameworks */,
+				189C348B1A581DB100E9C6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C348F1A581DB100E9C6F0 /* PBXTargetDependency */,
+			);
+			name = "swift-udp-demoTests";
+			productName = "swift-udp-demoTests";
+			productReference = 189C348D1A581DB100E9C6F0 /* swift-udp-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C34701A581DB100E9C6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = thinker;
+				TargetAttributes = {
+					189C34771A581DB100E9C6F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					189C348C1A581DB100E9C6F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 189C34771A581DB100E9C6F0;
+					};
+				};
+			};
+			buildConfigurationList = 189C34731A581DB100E9C6F0 /* Build configuration list for PBXProject "swift-udp-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 189C346F1A581DB100E9C6F0;
+			productRefGroup = 189C34791A581DB100E9C6F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C34771A581DB100E9C6F0 /* swift-udp-demo */,
+				189C348C1A581DB100E9C6F0 /* swift-udp-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C34761A581DB100E9C6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C34831A581DB100E9C6F0 /* Main.storyboard in Resources */,
+				189C34881A581DB100E9C6F0 /* LaunchScreen.xib in Resources */,
+				189C34851A581DB100E9C6F0 /* Images.xcassets in Resources */,
+				189C37891A58316800E9C6F0 /* Documentation.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C348B1A581DB100E9C6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C34741A581DB100E9C6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C378B1A58316800E9C6F0 /* GCDAsyncUdpSocket.m in Sources */,
+				189C378A1A58316800E9C6F0 /* GCDAsyncSocket.m in Sources */,
+				189C34801A581DB100E9C6F0 /* ViewController.swift in Sources */,
+				189C347E1A581DB100E9C6F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C34891A581DB100E9C6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C34941A581DB100E9C6F0 /* swift_udp_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189C348F1A581DB100E9C6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C34771A581DB100E9C6F0 /* swift-udp-demo */;
+			targetProxy = 189C348E1A581DB100E9C6F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189C34811A581DB100E9C6F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C34821A581DB100E9C6F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189C34861A581DB100E9C6F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C34871A581DB100E9C6F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189C34951A581DB100E9C6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189C34961A581DB100E9C6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189C34981A581DB100E9C6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-udp-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/Swift/swift-udp-demo/swift-udp-demo/GCD/GCDSocket-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		189C34991A581DB100E9C6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-udp-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/Swift/swift-udp-demo/swift-udp-demo/GCD/GCDSocket-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		189C349B1A581DB100E9C6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-udp-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-udp-demo.app/swift-udp-demo";
+			};
+			name = Debug;
+		};
+		189C349C1A581DB100E9C6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-udp-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-udp-demo.app/swift-udp-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C34731A581DB100E9C6F0 /* Build configuration list for PBXProject "swift-udp-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C34951A581DB100E9C6F0 /* Debug */,
+				189C34961A581DB100E9C6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C34971A581DB100E9C6F0 /* Build configuration list for PBXNativeTarget "swift-udp-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C34981A581DB100E9C6F0 /* Debug */,
+				189C34991A581DB100E9C6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C349A1A581DB100E9C6F0 /* Build configuration list for PBXNativeTarget "swift-udp-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C349B1A581DB100E9C6F0 /* Debug */,
+				189C349C1A581DB100E9C6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189C34701A581DB100E9C6F0 /* Project object */;
+}
